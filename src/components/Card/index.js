@@ -39,8 +39,9 @@ const Card = ({ id, poster_path, title, linkTo }) => {
 
             items.map((item, index) => {
                 if(item === 'favorite' + id){
-                   return items.splice(index, 1)
+                   items.splice(index, 1);
                 }
+                return items;
             });
 
             localStorage.setItem('favorites', JSON.stringify(items));

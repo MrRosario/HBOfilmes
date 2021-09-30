@@ -9,11 +9,15 @@ const Favorites = () => {
     const getArray = JSON.parse(localStorage.getItem('favorites') || 0);
 
     useEffect(()=> {
+        assignArrayData()
+    },[]); // eslint-disable-line react-hooks/exhaustive-deps
+
+    const assignArrayData = () => {
         if(getArray !== 0){
             setFavorites([...getArray])
         }
-    },[]);
-
+        console.log("getArray: ", getArray)
+    }
     const getData = () => {
        return favorites.map(item => {
             let data = JSON.parse(localStorage.getItem(item) || '');
