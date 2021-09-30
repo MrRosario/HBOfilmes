@@ -1,0 +1,28 @@
+.navbar {
+    background-color: rgb(15, 15, 15);
+    width: 360px;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    z-index: 10;
+}
+.navbar nav {
+    padding: 20px 90px 0px;
+}
+.navbar ul {
+    padding: 0;
+}
+.navbar li {
+    list-style-type: none;
+    margin-bottom: 18px;
+}
+.navbar li a {
+    font-size: 22px;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: rgb(240, 240, 240);
+}
+.navbar li a:hover {
+    color: rgb(71, 16, 193);
+}

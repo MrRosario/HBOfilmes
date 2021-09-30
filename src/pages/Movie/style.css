@@ -1,0 +1,46 @@
+.movie-info {
+    display: flex;
+    flex-direction: row;
+}
+.movie-info img {
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.movie-info__details h2 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.clearfix {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.detail__subheading {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 10px;
+}
+.detail__value {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+.movie-info-overview {
+    margin-top: 30px;
+}
+.detail__value span {
+    margin-right: 5px;
+}
+.movie-info-overview h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.movie-info-overview p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}

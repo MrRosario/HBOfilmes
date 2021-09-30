@@ -1,0 +1,31 @@
+.card {
+    width: 200px;
+    margin: 40px 10px 10px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.card figcaption {
+    font-size: 16px;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+}
+.favorite-icon,
+.favorite-icon svg {
+  width: 30px;
+  height: 35px;
+}
+.favorite-icon{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
