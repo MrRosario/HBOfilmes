@@ -1,7 +1,7 @@
 <h1 align="center">HBOfilmes</h1>
 <p align="center">
-  <i>HBOfilmes é um app que lista os filmes recentes
-    <br>Os usuaŕios tem a possibilidade de ver detalhes sobre o filme e criar uma lista de favoritos.</i>
+  <i>[HBOfilmes] é um app que lista os filmes recentes
+    <br>Os usuários tem a possibilidade de ver detalhes sobre o filme e criar uma lista de favoritos.</i>
   <br>
 </p>
 
@@ -36,6 +36,6 @@ Rodar a aplicação:
 ```
 npm start
 ```
-
+[HBOfilmes]: hbo-filmes.vercel.app
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/get-npm
