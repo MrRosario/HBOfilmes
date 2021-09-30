@@ -6,16 +6,27 @@
 
 ### Configurando o Projeto
 
-clonar o projeto:
+Clonar o projeto:
 
 ```
 git clone https://github.com/MrRosario/HBOfilmes.git
 ```
 
-Rodar a aplicação:
+Navegar até a aplicação:
 
 ```
 cd [NOME PROJETO]
+```
+
+Instalar dependências:
+
+```
+npm install
+```
+
+Rodar a aplicação:
+
+```
 npm start
 ```
 
