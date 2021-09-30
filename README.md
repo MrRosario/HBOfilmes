@@ -36,6 +36,6 @@ Rodar a aplicação:
 ```
 npm start
 ```
-[HBOfilmes]: hbo-filmes.vercel.app
+[HBOfilmes]: https://hbo-filmes.vercel.app/
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/get-npm
