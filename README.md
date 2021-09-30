@@ -1,3 +1,10 @@
+<h1 align="center">HBOfilmes</h1>
+<p align="center">
+  <i>HBOfilmes é um app que lista os filmes recentes
+    <br>Os usuaŕios tem a possibilidade de ver detalhes sobre o filme e criar uma lista de favoritos.</i>
+  <br>
+</p>
+
 ## Configuração
 
 ### Pré-requisitos
