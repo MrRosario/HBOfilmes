@@ -18,3 +18,6 @@ Rodar a aplicação:
 cd [NOME PROJETO]
 npm start
 ```
+
+[node.js]: https://nodejs.org/
+[npm]: https://www.npmjs.com/get-npm
