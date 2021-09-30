@@ -34,7 +34,6 @@ const Movie = () => {
             day: "2-digit"
         }).format(myDate);
         
-        console.log("formatedDate: ", formatedDate)
         return formatedDate
     }
 
@@ -53,8 +52,6 @@ const Movie = () => {
         { name: 'IDIOMAS FALADOS', type: spoken_languages },
         { name: 'CLASSIFICAÇÃO', type: vote_average },
     ];
-
-    console.log("data: ", data);
 
     return data && (
         <section className="main movie">

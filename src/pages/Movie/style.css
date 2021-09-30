@@ -44,3 +44,21 @@
     font-weight: 400;
     color: #fff;
 }
+
+@media (max-width: 900px) {
+    .movie-info {
+        border-radius: 5px;
+        padding: 0 16px 20px;
+        flex-direction: column;
+    }
+    .movie-info__details {
+        margin-top: 20px;
+    }
+    .movie-info__details h2 {
+        text-align: center;
+    }
+    .movie-info img {
+        width: 200px;
+        margin: 0 auto;
+    }
+}

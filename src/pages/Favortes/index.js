@@ -6,14 +6,12 @@ import './style.css';
 const Favorites = () => {
 
     const [favorites, setFavorites] = useState([])
-    const [favData, setFavData] = useState([]);
     const getArray = JSON.parse(localStorage.getItem('favorites') || 0);
 
     useEffect(()=> {
         if(getArray !== 0){
             setFavorites([...getArray])
         }
-        console.log("favorites: ", favorites)
     },[]);
 
     const getData = () => {
@@ -22,9 +20,6 @@ const Favorites = () => {
             return data
         })
     }
-
-    console.log("favorites2222: ", favorites);
-    console.log("favData: ", getData());
 
     return(
         <section className="main favorites">
@@ -45,7 +40,7 @@ const Favorites = () => {
                     })
                 }
                 {
-                    getData().length == 0 && (
+                    getData().length === 0 && (
                         <h4 className="favorite-warning">
                             Lista vazia, por favor volta 
                             para a página de 

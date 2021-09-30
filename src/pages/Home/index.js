@@ -13,7 +13,6 @@ const Home = () => {
     }
 
     let movies = data.apiData;
-    console.log("Movie data: ", movies);
 
     return (
         <div className="home">
